@@ -1,0 +1,69 @@
+---
+import { getCollection } from "astro:content";
+import { useTranslations } from "@/i18n";
+import Breadcrumb from "@/components/Breadcrumb.astro";
+import Footer from "@/components/Footer.astro";
+import Header from "@/components/Header.astro";
+import Layout from "@/layouts/Layout.astro";
+import Main from "@/components/Main.astro";
+import config from "@/config";
+
+const locale = Astro.currentLocale ?? config.site.lang;
+const t = useTranslations(locale);
+const sites = await getCollection("sites");
+const categories = Map.groupBy(
+  sites.sort((a, b) => b.data.savedAt.getTime() - a.data.savedAt.getTime()),
+  site => site.data.category
+);
+---
+
+<Layout title={`${t.pages.sitesTitle} | ${config.site.title}`}>
+  <Header />
+  <Breadcrumb />
+  <Main pageTitle={t.pages.sitesTitle} pageDesc={t.pages.sitesDesc}>
+    <div data-pagefind-body>
+      {
+        [...categories.entries()]
+          .sort(([a], [b]) => a.localeCompare(b, locale))
+          .map(([category, entries]) => (
+            <section class="mb-10" aria-labelledby={`category-${category}`}>
+              <h2
+                id={`category-${category}`}
+                class="mb-4 border-b border-border pb-2 text-xl font-semibold"
+              >
+                {category}
+              </h2>
+              <ul class="grid gap-4 sm:grid-cols-2">
+                {entries.map(({ data }) => (
+                  <li class="border-border bg-background rounded-lg border p-5">
+                    <h3 class="flex items-baseline justify-between gap-3 text-lg font-medium">
+                      <a
+                        class="text-accent min-w-0 decoration-dashed underline-offset-4 hover:underline"
+                        href={data.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {data.title}
+                        <span class="sr-only">（在新标签页打开）</span>
+                      </a>
+                      <a
+                        class="text-foreground/65 shrink-0 text-sm font-normal"
+                        href={data.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={`访问 ${new URL(data.url).host}`}
+                      >
+                        {new URL(data.url).host}
+                      </a>
+                    </h3>
+                    <p class="mt-2">{data.description}</p>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ))
+      }
+    </div>
+  </Main>
+  <Footer />
+</Layout>
