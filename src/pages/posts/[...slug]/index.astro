@@ -74,6 +74,9 @@ const {
 } = post.data;
 
 const { Content, headings } = await render(post);
+const firstHeadingDepth = headings.length
+  ? Math.min(...headings.map(({ depth }) => depth))
+  : 0;
 
 let ogImageUrl: string | undefined;
 
@@ -136,15 +139,25 @@ const ogImage = ogImageUrl
 
     {
       headings.length > 0 && (
-        <details open class="border-border bg-muted/30 my-6 rounded-lg border p-4">
+        <details
+          open
+          class="border-border bg-muted/30 my-6 rounded-lg border p-4"
+        >
           <summary class="text-foreground cursor-pointer font-semibold">
             文章大纲
           </summary>
           <nav aria-label="文章大纲">
             <ul class="mt-3 space-y-1 text-sm">
               {headings.map(({ depth, slug, text }) => (
-                <li style={{ paddingInlineStart: `${Math.max(0, depth - 2)}rem` }}>
-                  <a class="hover:text-accent text-muted-foreground" href={`#${slug}`}>
+                <li
+                  style={{
+                    paddingInlineStart: `${depth - firstHeadingDepth}rem`,
+                  }}
+                >
+                  <a
+                    class="hover:text-accent text-muted-foreground"
+                    href={`#${slug}`}
+                  >
                     {text}
                   </a>
                 </li>
