@@ -22,7 +22,7 @@ export default defineAstroPaperConfig({
     showArchives: true,
     showBackButton: true,
     editPost: {
-      enabled: true,
+      enabled: false,
       url: "https://github.com/lorilu-studio/lorilu-studio.github.io/edit/main/",
     },
     search: "pagefind",
