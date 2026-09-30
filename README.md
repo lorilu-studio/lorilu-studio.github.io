@@ -1,6 +1,6 @@
-# Lorilu Studio
+# lorilu studio 的博客
 
-Lorilu Studio 是一个中文个人主页与技术博客，记录项目实践、技术笔记和持续学习。网站使用 AstroPaper 构建，以静态页面发布在 GitHub Pages。
+lorilu studio 是一个中文个人主页与技术博客，记录项目实践、技术笔记和持续学习。网站使用 AstroPaper 构建，以静态页面发布在 GitHub Pages。
 
 **线上站点：** [lorilu-studio.github.io](https://lorilu-studio.github.io/) · **源码：** [GitHub 仓库](https://github.com/lorilu-studio/lorilu-studio.github.io)
 

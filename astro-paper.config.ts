@@ -3,9 +3,9 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://lorilu-studio.github.io",
-    title: "Lorilu Studio",
-    description: "Lorilu 的个人主页与博客。",
-    author: "Lorilu Studio",
+    title: "lorilu studio 的博客",
+    description: "lorilu studio 的个人主页与技术博客。",
+    author: "lorilu studio",
     profile: "https://github.com/lorilu-studio",
     ogImage: "og.png",
     lang: "zh-CN",
