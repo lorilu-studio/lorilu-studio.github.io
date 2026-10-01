@@ -17,7 +17,10 @@ const categories = Map.groupBy(
 );
 ---
 
-<Layout title={`${t.pages.sitesTitle} | ${config.site.title}`}>
+<Layout
+  title={`${t.pages.sitesTitle} | ${config.site.title}`}
+  description={t.pages.sitesDesc}
+>
   <Header />
   <Breadcrumb />
   <Main pageTitle={t.pages.sitesTitle} pageDesc={t.pages.sitesDesc}>
@@ -29,7 +32,7 @@ const categories = Map.groupBy(
             <section class="mb-10" aria-labelledby={`category-${category}`}>
               <h2
                 id={`category-${category}`}
-                class="mb-4 border-b border-border pb-2 text-xl font-semibold"
+                class="border-border mb-4 border-b pb-2 text-xl font-semibold"
               >
                 {category}
               </h2>
