@@ -1,5 +1,5 @@
 ---
-title: "engineering-review-board 技能详解"
+title: "技能详解系列：engineering-review-board，让 AI 有章法地审查代码"
 pubDatetime: 2026-10-08T10:00:00+08:00
 description: "用一篇文章讲清 engineering-review-board 是什么、适合哪些代码检查任务，以及怎样让 Agent 做一次有证据、有范围的审查。"
 tags:
