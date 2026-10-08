@@ -1,5 +1,5 @@
 ---
-title: "技能详解系列：从设计方向到 UI 设计稿，从设计方向到 UI 设计稿的使用指南"
+title: "技能详解系列：oil-ui 与 draw-ui，设计方向怎么选，UI 设计稿怎么做"
 pubDatetime: 2026-10-08T22:55:00+08:00
 description: "读懂 oil-ui 和 draw-ui 两个界面设计 Skill 的工作方式，用实际示例选择设计方向、生成设计稿，再按需实现页面。"
 tags:
