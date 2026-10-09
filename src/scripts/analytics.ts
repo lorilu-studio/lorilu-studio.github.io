@@ -2,8 +2,8 @@ const measurementId = "G-MFCVSF28XQ";
 const analyticsWindow = window as Window & { dataLayer?: unknown[] };
 const dataLayer = (analyticsWindow.dataLayer ??= []);
 
-function gtag(...args: unknown[]) {
-  dataLayer.push(args);
+function gtag(..._args: unknown[]) {
+  dataLayer.push(arguments);
 }
 
 gtag("js", new Date());
