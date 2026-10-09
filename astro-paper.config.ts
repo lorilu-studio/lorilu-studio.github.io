@@ -7,6 +7,7 @@ export default defineAstroPaperConfig({
     description: "lorilu studio 的个人主页与技术博客。",
     author: "lorilu studio",
     profile: "https://github.com/lorilu-studio",
+    googleVerification: "NczojMjqUBQbs4QaKLt6sflAbsm-mjM-hapyLumMOyQ",
     ogImage: "og.png",
     lang: "zh-CN",
     timezone: "Asia/Taipei",
