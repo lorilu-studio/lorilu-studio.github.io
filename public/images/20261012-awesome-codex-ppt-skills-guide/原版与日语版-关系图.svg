@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 570" role="img" aria-labelledby="title desc">
+  <title id="title">原版清单与非官方日语版的关系</title>
+  <desc id="desc">zhuyansen 建立原版清单并实测 31 个项目；StudioYebisu 沿用原版分类与比较结果，加入日语简介及带图片的浏览网站。日语版为 2026 年 10 月 11 日数据快照，没有自动同步。</desc>
+  <rect width="1200" height="570" rx="32" fill="#f7f8fc"/>
+  <g font-family="Arial, Noto Sans SC, sans-serif">
+    <text x="64" y="88" fill="#18223c" font-size="38" font-weight="700">原版与日语版，各做了什么？</text>
+    <rect x="64" y="143" width="476" height="319" rx="24" fill="#fff" stroke="#c6d5f7" stroke-width="2"/>
+    <rect x="86" y="167" width="105" height="30" rx="15" fill="#e9efff"/>
+    <text x="104" y="189" fill="#3157a8" font-size="16" font-weight="700">原版</text>
+    <text x="88" y="241" fill="#18223c" font-size="28" font-weight="700">zhuyansen</text>
+    <text x="88" y="291" fill="#42506d" font-size="22">整理 209 个项目、分成六类</text>
+    <text x="88" y="334" fill="#42506d" font-size="22">试跑 31 个项目，27 个产生成果</text>
+    <text x="88" y="377" fill="#42506d" font-size="22">比较编辑能力与返工量</text>
+    <path d="M553 290h84m-25-25 25 25-25 25" fill="none" stroke="#8898ba" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="660" y="143" width="476" height="319" rx="24" fill="#fff" stroke="#bce7db" stroke-width="2"/>
+    <rect x="682" y="167" width="172" height="30" rx="15" fill="#dff5ee"/>
+    <text x="700" y="189" fill="#167a60" font-size="16" font-weight="700">非官方日语版</text>
+    <text x="684" y="241" fill="#18223c" font-size="28" font-weight="700">StudioYebisu</text>
+    <text x="684" y="291" fill="#42506d" font-size="22">沿用原版分类与比较结果</text>
+    <text x="684" y="334" fill="#42506d" font-size="22">编写日语简介，制作图文网站</text>
+    <text x="684" y="377" fill="#42506d" font-size="22">基于 2026-10-11 的数据快照</text>
+    <text x="64" y="518" fill="#7a8294" font-size="16">关系依据：两个项目的 GitHub README · 日语版未与原版自动同步</text>
+  </g>
+</svg>

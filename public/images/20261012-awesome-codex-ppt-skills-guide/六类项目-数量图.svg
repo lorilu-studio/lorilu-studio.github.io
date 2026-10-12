@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">209 个 AI 幻灯片项目的六类分布</title>
+  <desc id="desc">可编辑 PPTX 83，网页幻灯片 57，文档转幻灯片 29，框架与工具包 20，商务咨询 13，图片型幻灯片 7。</desc>
+  <rect width="1200" height="700" rx="32" fill="#f7f8fc"/>
+  <g font-family="Arial, Noto Sans SC, sans-serif">
+    <text x="64" y="88" fill="#18223c" font-size="38" font-weight="700">209 个项目，分布在六类交付场景</text>
+    <text x="64" y="130" fill="#59627a" font-size="20">项目数量仅说明收录范围，不能当作品质排名</text>
+    <g font-size="21" fill="#26324d">
+      <text x="64" y="220">可编辑 PPTX</text><rect x="246" y="190" width="778" height="42" rx="8" fill="#3669d7"/><text x="1042" y="220" font-weight="700">83</text>
+      <text x="64" y="296">网页幻灯片</text><rect x="246" y="266" width="534" height="42" rx="8" fill="#34a888"/><text x="798" y="296" font-weight="700">57</text>
+      <text x="64" y="372">文档转幻灯片</text><rect x="246" y="342" width="272" height="42" rx="8" fill="#8b6bc7"/><text x="536" y="372" font-weight="700">29</text>
+      <text x="64" y="448">框架与工具包</text><rect x="246" y="418" width="187" height="42" rx="8" fill="#5e8db5"/><text x="451" y="448" font-weight="700">20</text>
+      <text x="64" y="524">商务与咨询</text><rect x="246" y="494" width="122" height="42" rx="8" fill="#d78a48"/><text x="386" y="524" font-weight="700">13</text>
+      <text x="64" y="600">图片型幻灯片</text><rect x="246" y="570" width="66" height="42" rx="8" fill="#d36f73"/><text x="330" y="600" font-weight="700">7</text>
+    </g>
+    <text x="64" y="658" fill="#7a8294" font-size="16">数据来源：zhuyansen/awesome-codex-ppt-skills · What these tools make</text>
+  </g>
+</svg>

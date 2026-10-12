@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">先选交付形式，再选 AI 幻灯片工具</title>
+  <desc id="desc">可编辑 PPTX 适合交给同事继续修改；网页幻灯片适合浏览器演示；图片型幻灯片适合重视画面效果的场景，但文字修改成本高。</desc>
+  <rect width="1200" height="650" rx="32" fill="#f7f8fc"/>
+  <text x="64" y="88" fill="#18223c" font-family="Arial, Noto Sans SC, sans-serif" font-size="38" font-weight="700">先确定交付形式，再挑生成工具</text>
+  <text x="64" y="130" fill="#59627a" font-family="Arial, Noto Sans SC, sans-serif" font-size="20">同样是幻灯片，后续编辑方式可能完全不同</text>
+  <g font-family="Arial, Noto Sans SC, sans-serif">
+    <rect x="64" y="175" width="336" height="390" rx="24" fill="#fff" stroke="#dce2f1" stroke-width="2"/>
+    <rect x="90" y="204" width="280" height="164" rx="14" fill="#e9efff"/>
+    <rect x="114" y="228" width="232" height="116" rx="8" fill="#fff" stroke="#9bb3eb" stroke-width="2"/>
+    <rect x="132" y="247" width="124" height="15" rx="3" fill="#3365d6"/>
+    <rect x="132" y="278" width="76" height="46" rx="5" fill="#b8cbf9"/>
+    <rect x="218" y="278" width="109" height="12" rx="3" fill="#bac7df"/>
+    <rect x="218" y="300" width="83" height="12" rx="3" fill="#bac7df"/>
+    <text x="90" y="418" fill="#18223c" font-size="29" font-weight="700">可编辑 PPTX</text>
+    <text x="90" y="458" fill="#59627a" font-size="20">同事还要改文字、数据</text>
+    <text x="90" y="492" fill="#59627a" font-size="20">或图表时优先考虑</text>
+    <rect x="90" y="521" width="144" height="28" rx="14" fill="#e9efff"/>
+    <text x="105" y="541" fill="#3157a8" font-size="16">保留编辑能力</text>
+    <rect x="432" y="175" width="336" height="390" rx="24" fill="#fff" stroke="#dce2f1" stroke-width="2"/>
+    <rect x="458" y="204" width="284" height="164" rx="14" fill="#dff5ee"/>
+    <rect x="480" y="229" width="240" height="119" rx="8" fill="#fff" stroke="#91d5c2" stroke-width="2"/>
+    <circle cx="497" cy="244" r="4" fill="#54b999"/>
+    <circle cx="512" cy="244" r="4" fill="#54b999"/>
+    <circle cx="527" cy="244" r="4" fill="#54b999"/>
+    <rect x="500" y="266" width="108" height="17" rx="3" fill="#17886b"/>
+    <rect x="500" y="298" width="194" height="13" rx="3" fill="#a9dccd"/>
+    <text x="458" y="418" fill="#18223c" font-size="29" font-weight="700">网页幻灯片</text>
+    <text x="458" y="458" fill="#59627a" font-size="20">适合在浏览器中展示</text>
+    <text x="458" y="492" fill="#59627a" font-size="20">通常需要用代码修改</text>
+    <rect x="458" y="521" width="144" height="28" rx="14" fill="#dff5ee"/>
+    <text x="473" y="541" fill="#167a60" font-size="16">展示方式灵活</text>
+    <rect x="800" y="175" width="336" height="390" rx="24" fill="#fff" stroke="#dce2f1" stroke-width="2"/>
+    <rect x="826" y="204" width="284" height="164" rx="14" fill="#fff0e8"/>
+    <rect x="850" y="228" width="236" height="117" rx="8" fill="#f6b89b"/>
+    <circle cx="1022" cy="259" r="20" fill="#ffe2aa"/>
+    <path d="M850 344 926 275l41 39 33-28 86 58Z" fill="#dc765d"/>
+    <text x="826" y="418" fill="#18223c" font-size="29" font-weight="700">图片型幻灯片</text>
+    <text x="826" y="458" fill="#59627a" font-size="20">优先追求画面效果时考虑</text>
+    <text x="826" y="492" fill="#59627a" font-size="20">改一个字也可能要重做</text>
+    <rect x="826" y="521" width="144" height="28" rx="14" fill="#fff0e8"/>
+    <text x="841" y="541" fill="#bd614a" font-size="16">文字难以编辑</text>
+  </g>
+  <text x="64" y="614" fill="#7a8294" font-family="Arial, Noto Sans SC, sans-serif" font-size="16">概念示意 · 依据原版清单的交付形式分类绘制</text>
+</svg>
