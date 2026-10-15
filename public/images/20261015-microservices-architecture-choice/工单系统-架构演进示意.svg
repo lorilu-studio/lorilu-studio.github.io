@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="320" viewBox="0 0 1120 320" role="img" aria-labelledby="title desc">
+  <title id="title">售后工单系统的三种架构形态</title>
+  <desc id="desc">第一阶段用单个应用容纳客户、工单、备件和报表模块；图片分析产生独立资源需求后增加异步 Worker；仅在团队与发布需求明确时才考虑服务化。</desc>
+  <rect width="1120" height="320" rx="20" fill="#f7f8f5"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif" fill="#172524">
+    <rect x="28" y="28" width="330" height="264" rx="16" fill="#fff" stroke="#bed0c9" stroke-width="2"/>
+    <text x="50" y="67" font-size="22" font-weight="700">① 统一部署</text>
+    <text x="50" y="95" font-size="15" fill="#52635d">小团队，统一发布节奏</text>
+    <rect x="50" y="124" width="286" height="140" rx="12" fill="#e8f2ed"/>
+    <text x="68" y="153" font-size="17" font-weight="700">模块化单体</text>
+    <rect x="68" y="170" width="114" height="34" rx="7" fill="#fff"/><text x="100" y="193" font-size="15">客户</text>
+    <rect x="200" y="170" width="114" height="34" rx="7" fill="#fff"/><text x="232" y="193" font-size="15">工单</text>
+    <rect x="68" y="215" width="114" height="34" rx="7" fill="#fff"/><text x="100" y="238" font-size="15">备件</text>
+    <rect x="200" y="215" width="114" height="34" rx="7" fill="#fff"/><text x="232" y="238" font-size="15">报表</text>
+    <path d="M370 160h34" stroke="#7b9488" stroke-width="3"/><path d="m396 153 10 7-10 7" fill="none" stroke="#7b9488" stroke-width="3"/>
+    <rect x="418" y="28" width="330" height="264" rx="16" fill="#fff" stroke="#bed0c9" stroke-width="2"/>
+    <text x="440" y="67" font-size="22" font-weight="700">② 按资源需求拆分</text>
+    <text x="440" y="95" font-size="15" fill="#52635d">图片分析耗时，独立运行</text>
+    <rect x="440" y="134" width="120" height="94" rx="10" fill="#e8f2ed"/>
+    <text x="464" y="171" font-size="17" font-weight="700">业务应用</text>
+    <text x="454" y="201" font-size="13">客户·工单·备件</text>
+    <path d="M562 180h15" stroke="#7b9488" stroke-width="2"/><path d="m571 174 8 6-8 6" fill="none" stroke="#7b9488" stroke-width="2"/>
+    <rect x="581" y="152" width="45" height="56" rx="8" fill="#f9eed5"/><text x="589" y="186" font-size="14">任务</text>
+    <path d="M628 180h15" stroke="#7b9488" stroke-width="2"/><path d="m637 174 8 6-8 6" fill="none" stroke="#7b9488" stroke-width="2"/>
+    <rect x="645" y="134" width="89" height="94" rx="10" fill="#dceaf4"/>
+    <text x="672" y="174" font-size="14">图片</text><text x="664" y="197" font-size="14">Worker</text>
+    <path d="M760 160h34" stroke="#7b9488" stroke-width="3"/><path d="m786 153 10 7-10 7" fill="none" stroke="#7b9488" stroke-width="3"/>
+    <rect x="808" y="28" width="284" height="264" rx="16" fill="#fff" stroke="#bed0c9" stroke-width="2"/>
+    <text x="830" y="67" font-size="22" font-weight="700">③ 条件满足再服务化</text>
+    <text x="830" y="95" font-size="15" fill="#52635d">独立团队与发布需求明确</text>
+    <rect x="830" y="130" width="240" height="45" rx="9" fill="#e8f2ed"/><text x="866" y="159" font-size="16">边界与数据归属稳定</text>
+    <rect x="830" y="188" width="240" height="45" rx="9" fill="#dceaf4"/><text x="867" y="217" font-size="16">再评估独立服务</text>
+    <text x="830" y="265" font-size="14" fill="#52635d">不是每个系统都要走到这一步</text>
+  </g>
+</svg>
