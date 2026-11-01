@@ -4,7 +4,6 @@ export default {
   nav: {
     home: "首页",
     posts: "文章",
-    sites: "网站收藏",
     tags: "标签",
     about: "关于",
     archives: "归档",
@@ -45,8 +44,6 @@ export default {
     tagsDesc: "文章使用的所有标签。",
     postsTitle: "文章",
     postsDesc: "我发布的所有文章。",
-    sitesTitle: "网站收藏",
-    sitesDesc: "我觉得有用的网站，以及收藏它们的理由。",
     archivesTitle: "归档",
     archivesDesc: "所有归档文章。",
     searchTitle: "搜索",
