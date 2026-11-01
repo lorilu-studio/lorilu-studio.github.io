@@ -2,7 +2,6 @@
 title: "text-to-cad：让 Coding Agent 生成、检查和迭代 CAD 模型"
 pubDatetime: 2026-08-09T00:00:00+08:00
 description: "从一个带孔的矩形板开始，了解如何用 text-to-cad 和 Coding Agent 创建、检查并修改参数化 CAD 模型。"
-draft: true
 tags:
   - AI Agent
   - CAD
